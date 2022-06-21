@@ -1,5 +1,11 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ name: 'Fressy Mathebula' })
 }
+
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
